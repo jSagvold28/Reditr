@@ -1,56 +1,44 @@
-        
-        
-        VStack {
+      VStack {
             
-            Text("____________________________________________")
+            Text("________________________________________________")
+                .font(.subheadline)
                 .foregroundColor(.gray)
-                .padding(.bottom)
+                .padding(.bottom, 15.5)
             
-            Text("post text here.")
-                .padding(.horizontal)
-                .padding(.bottom, 20.5)
-                .padding(.top, 6.5)
             
-            HStack(spacing: 12.5) {
+            
+            Text("post text here")
+                .font(.subheadline)
+                .fontWeight(.semibold)
+                .padding(.bottom, 10.25)
+            
+            HStack(spacing: 10) {
                 
-                Image(systemName: "arrow.up")
-                    .padding(.all)
-                    .font(.title3)
-                    .bold()
-                    .fontWeight(.semibold)
+                Image(systemName: "clock.badge.exclamationmark")
+                //    .font(.subheadline)
+                    .padding(.bottom, 6.5)
                 
-                Image(systemName: "arrow.down")
-                    .font(.title3)
-                    .bold()
-                    .fontWeight(.semibold)
-                    .padding(.all)
+                Text("time since sent herfe")
+                //   .padding(.horizontal, 30)
+                    .padding(.bottom, 6.5)
                 
+                // Reply to message
                 
+                Image(systemName: "arrowshape.turn.up.backward")
+                    .padding(.bottom, 6.5)
                 
-                Image(systemName: "clock.fill")
-                    .foregroundColor(.gray)
-                    .font(.system(size: 15))
-                
-                Text("xx ago")
-                    .font(.system(size: 15))
-                    .foregroundColor(.gray)
+                Text("Message sent by a bot.")
+                    .font(.system(size: 13))
+                    .padding(.bottom, 6.5)
                 
                 
-                Text("In r/ ProgrammingMemes")
-                    .font(.caption2)
-                    .foregroundColor(.secondary)
-                
-                    
             }
             
             VStack {
                 
-                Text("____________________________________________")
+                Text("________________________________________________")
+                    .font(.subheadline)
                     .foregroundColor(.gray)
-                    .padding(.bottom)
             }
-            
-            
         }
     }
-}
