@@ -41,9 +41,9 @@ struct Message01: View {
             
             VStack {
                 
-                Text("________________________________________________")
+                Text("_____________________________________________")
                     .font(.subheadline)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.secondary)
             }
         }
     }
@@ -54,4 +54,3 @@ struct Message01: View {
         }
     }
 }
- 
