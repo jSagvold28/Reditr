@@ -55,3 +55,4 @@ struct Message02: View {
         }
     }
 }
+ 
