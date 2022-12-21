@@ -1,44 +1,56 @@
-      VStack {
+        
+        
+        VStack {
             
-            Text("________________________________________________")
-                .font(.subheadline)
+            Text("____________________________________________")
                 .foregroundColor(.gray)
-                .padding(.bottom, 15.5)
+                .padding(.bottom)
             
+            Text("post")
+                .padding(.horizontal)
+                .padding(.bottom, 20.5)
+                .padding(.top, 6.5)
             
-            
-            Text("post text here")
-                .font(.subheadline)
-                .fontWeight(.semibold)
-                .padding(.bottom, 10.25)
-            
-            HStack(spacing: 10) {
+            HStack(spacing: 12.5) {
                 
-                Image(systemName: "clock.badge.exclamationmark")
-                //    .font(.subheadline)
-                    .padding(.bottom, 6.5)
+                Image(systemName: "arrow.up")
+                    .padding(.all)
+                    .font(.title3)
+                    .bold()
+                    .fontWeight(.semibold)
                 
-                Text("time since sent herfe")
-                //   .padding(.horizontal, 30)
-                    .padding(.bottom, 6.5)
-                
-                // Reply to message
-                
-                Image(systemName: "arrowshape.turn.up.backward")
-                    .padding(.bottom, 6.5)
-                
-                Text("Message sent by a bot.")
-                    .font(.system(size: 13))
-                    .padding(.bottom, 6.5)
+                Image(systemName: "arrow.down")
+                    .font(.title3)
+                    .bold()
+                    .fontWeight(.semibold)
+                    .padding(.all)
                 
                 
+                
+                Image(systemName: "clock.fill")
+                    .foregroundColor(.gray)
+                    .font(.system(size: 15))
+                
+                Text("xx ago")
+                    .font(.system(size: 15))
+                    .foregroundColor(.gray)
+                
+                
+                Text("In r/xx")
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+                
+                    
             }
             
             VStack {
                 
-                Text("________________________________________________")
-                    .font(.subheadline)
+                Text("____________________________________________")
                     .foregroundColor(.gray)
+                    .padding(.bottom)
             }
-        } 
+            
+            
+        }
     }
+}
