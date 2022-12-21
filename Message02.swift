@@ -44,7 +44,7 @@ struct Message02: View {
                 
                 Text("________________________________________________")
                     .font(.subheadline)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.secondary)
             }
         }
     }
