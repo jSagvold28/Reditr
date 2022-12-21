@@ -6,7 +6,7 @@
                 .foregroundColor(.gray)
                 .padding(.bottom)
             
-            Text("post")
+            Text("post text here.")
                 .padding(.horizontal)
                 .padding(.bottom, 20.5)
                 .padding(.top, 6.5)
