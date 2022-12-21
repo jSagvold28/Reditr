@@ -24,7 +24,7 @@ struct Message03: View {
                 //    .font(.subheadline)
                     .padding(.bottom, 6.5)
                 
-                Text("10hr")
+                Text("3d")
                 //   .padding(.horizontal, 30)
                     .padding(.bottom, 6.5)
                 
