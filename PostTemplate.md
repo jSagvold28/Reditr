@@ -1,5 +1,4 @@
-        
-        VStack {
+       VStack {
             
             Text("____________________________________________")
                 .foregroundColor(.gray)
@@ -30,7 +29,7 @@
                     .foregroundColor(.gray)
                     .font(.system(size: 15))
                 
-                Text("6m ago")
+                Text("time ago")
                     .font(.system(size: 15))
                     .foregroundColor(.gray)
                 
