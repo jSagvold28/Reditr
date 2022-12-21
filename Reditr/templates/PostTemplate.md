@@ -40,5 +40,5 @@
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
-        }
+        } 
     }
